@@ -14,16 +14,19 @@ body {
   width: 100%;
   background-color: rgba(23, 121, 186, 0.1);
   transition: all 0.5s ease;
+  li {
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    &:hover {
+      box-shadow: 0 0 0 1px #fefefe;
+    }
+  }
+  a {
+    color: #fefefe;
+  }
 }
 
-.sticky-shrinknav-menu li {
-  border-radius: 2px;
-  transition: all 0.3s ease;
-}
 
-.sticky-shrinknav-menu li:hover {
-  box-shadow: 0 0 0 1px #fefefe;
-}
 
 .sticky-shrinknav-menu a {
   color: #fefefe;
@@ -51,6 +54,7 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  // background-color: #2196e3;
   background-color: #2196e3;
   text-align: center;
   position: fixed;

@@ -40,3 +40,5 @@ Thumbs.db
 /build
 /node_modules/
 package-lock.json
+.htaccess
+sftp-config.json
