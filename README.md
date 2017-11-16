@@ -1,2 +1,2 @@
 # mainwebsite
-Contents of website
+This contains my personal website documents

@@ -1,0 +1,10 @@
+{% macro smallNavigation(titleForNavigation="Default", type="breadcrumb" ,reference="#", color="teal")%}
+
+<nav>
+  <div class="nav-wrapper {{color}}">
+    <div class="col s12">
+      <a href="{{reference}}" class="{{type}}">{{titleForNavigation}}</a>
+    </div>
+  </div>
+</nav>
+{% endmacro %}
