@@ -2,15 +2,6 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-<div class="row row-carousel">
-  <div class="col s12">
-  <p>Jose Rodriguez - Now there's something else here</p>
-  <input type="search" name="search" placeholder="Search.." class="animated-search-form">
-</div>
-  {#Footer#}
-  <div class="col s12">
-    {% include "partials/footer.njk" %}
-  </div>
-</div>
+{% include "partials/navigation.njk" %}
 
 {% endblock %}

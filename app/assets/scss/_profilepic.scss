@@ -1,0 +1,15 @@
+.circle_profile {
+	border-radius: 50%;
+	 -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+
+    background-color:#fff;
+	width: 200px;
+	height: 200px; 
+	img{
+		flex-shrink: 0;
+		min-width: 100%;
+		min-height: 100%;
+		border-radius: 50%;
+	}
+}
