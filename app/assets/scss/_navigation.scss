@@ -28,16 +28,10 @@ body {
 
 
 
-.sticky-shrinknav-menu a {
-  color: #fefefe;
-}
 
 .sticky-shrinknav-header-title {
   transition: all 0.3s ease;
   position: relative;
-  -webkit-transform: translateY(-1.875rem);
-      -ms-transform: translateY(-1.875rem);
-          transform: translateY(-1.875rem);
   margin-bottom: 0;
   color: #fefefe;
 }
@@ -61,7 +55,7 @@ body {
   top: 0;
   left: 0;
   overflow: hidden;
-  transition: all 0.5s ease;
+  transition: all 1.5s ease;
 }
 
 body.sticky-shrinknav-wrapper {

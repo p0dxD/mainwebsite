@@ -11,3 +11,13 @@ $(function() {
   });
 });
 
+
+$(document).ready(function() {
+	console.log("loaded");
+    $("a#btn-projects").click(function() {
+        //Do stuff when clicked
+        $("#testing").load("projects/projects.html");
+        console.log("test");
+    });
+});
+
