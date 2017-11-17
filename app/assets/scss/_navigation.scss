@@ -55,7 +55,7 @@ body {
   top: 0;
   left: 0;
   overflow: hidden;
-  transition: all 1.5s ease;
+  transition: all 0.3s ease;
 }
 
 body.sticky-shrinknav-wrapper {
@@ -72,4 +72,8 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
       -ms-transform: scale(0);
           transform: scale(0);
   transition: all 0.3s ease;
+}
+
+main{
+  padding-top: 3%;
 }
