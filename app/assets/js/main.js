@@ -15,12 +15,14 @@ $(function() {
 $(document).ready(function() {
 	console.log("loaded");
     $("a#btn-about").click(function() {
-        $("#testing").load("projects/about.html");
-        $('body').css('overflow','hidden');
+      console.log("in about");
+        $("main").load("projects/about.html .maincontent");
+        $('body').css('overflow','scroll');
     });
 
     $("a#btn-projects").click(function() {
-        $("#testing").load("projects/projects.html");
+      console.log("in projects");
+        $("main").load("projects/projects.html .maincontent");
         $('body').css('overflow','scroll');
     });
 });

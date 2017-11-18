@@ -2,8 +2,9 @@ var gulp = require('gulp');
 var nunjucksRender = require('gulp-nunjucks-render');
 var data = require('gulp-data');
 var sass = require('gulp-sass');
+var gutil = require('gulp-util');
 var browserSync = require('browser-sync').create();
-
+gutil.log('stuff happened', 'Really it did', gutil.colors.magenta('123'));
 gulp.task('nunjucks', function() {
   // Gets .html and .nunjucks files in pages
   return gulp.src('app/pages/**/*.+(html|njk)')

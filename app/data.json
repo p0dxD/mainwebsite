@@ -1,9 +1,15 @@
 {
-  "images": [{
-    "src": "image-one.png",
-    "alt": "Image one alt text"
+"images": [{
+  "src": "test1.gif",
+  "alt": "alt text for item1"
   }, {
-    "src": "image-two.png",
-    "alt": "Image two alt text"
+  "src": "test.gif",
+  "alt": "alt text for item1"
+  },{
+  "src": "test1.gif",
+  "alt": "alt text for item1"
+  },{
+  "src": "test.gif",
+  "alt": "alt text for item1"
   }]
 }
