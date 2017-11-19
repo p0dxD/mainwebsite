@@ -6,13 +6,20 @@
 {% block content %}
 {% include "partials/navigation.njk" %}
 <div class="maincontent">
+
+<div class="row small-12 medium-8 large-6 columns align-center">
+<input type="search" name="search" placeholder="Search.." class="animated-search-form" id="searchproject" onkeydown="search(this)">
+</div>
+
 <div class="grid-container">
-  <div class="grid-x grid-padding-x small-up-2 medium-up-3">
+  <div class="projects grid-x grid-padding-x small-up-2 medium-up-3">
 
   {% for image in images %}
       <div class="cell">
       <div class="card">
-        <img src="{{pathimgs}}/gifs/{{image.src}}">
+        <div class="card-image">
+          <img src="{{pathimgs}}/gifs/{{image.src}}">
+        </div>
         <div class="card-section">
           <h4>{{image.title}}</h4>
           <p>It has an easy to override visual style, and is appropriately subdued.</p>
@@ -23,5 +30,4 @@
 </div>
 
 </div>
-{% include "partials/footer.njk" %}
 {% endblock %}

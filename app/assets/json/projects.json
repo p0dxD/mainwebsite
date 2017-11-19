@@ -1,0 +1,51 @@
+{
+"projects": [{
+  "src": "test1.gif",
+  "title": "Website",
+  "alt": "alt text for item1"
+  }, {
+  "src": "320.png",
+  "title": "Chat client in C",
+  "alt": "alt text for item1"
+  },{
+  "src": "Instagram.png",
+  "title": "Instagram bot",
+  "alt": "alt text for item1"
+  },{
+  "src": "test.gif",
+  "title": "Website Template",
+  "alt": "alt text for item1"
+  },
+	{
+  "src": "nachos.png",
+  "title": "NACHOS Java Operating system parts/components",
+  "alt": "alt text for item1"
+  },
+{
+  "src": "terminal.png",
+  "title": "Terminal in C",
+  "alt": "alt text for item1"
+  },
+	{
+  "src": "tictac.jpg",
+  "title": "Tic tac toe website",
+  "alt": "alt text for item1"
+  },
+  {
+  "src": "mips.gif",
+  "title": "Mips assembly applications",
+  "alt": "alt text for item1"
+  },{
+  "src": "gofish.png",
+  "title": "GoFish game in Java",
+  "alt": "alt text for item1"
+  },{
+  "src": "linear.jpg",
+  "title": "Linear Algebra calculator (in progress)",
+  "alt": "alt text for item1"
+  },{
+  "src": "codeday.jpg",
+  "title": "Codeday project in JavaFX",
+  "alt": "alt text for item1"
+  }]
+}

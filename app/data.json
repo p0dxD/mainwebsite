@@ -27,7 +27,7 @@
   "alt": "alt text for item1"
   },
 	{
-  "src": "test.gif",
+  "src": "tictac.jpg",
   "title": "Tic tac toe website",
   "alt": "alt text for item1"
   },
@@ -40,11 +40,11 @@
   "title": "GoFish game in Java",
   "alt": "alt text for item1"
   },{
-  "src": "linear.png",
+  "src": "linear.jpg",
   "title": "Linear Algebra calculator (in progress)",
   "alt": "alt text for item1"
   },{
-  "src": "codeday.png",
+  "src": "codeday.jpg",
   "title": "Codeday project in JavaFX",
   "alt": "alt text for item1"
   }]
