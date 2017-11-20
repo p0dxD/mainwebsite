@@ -2,19 +2,23 @@
 "projects": [{
   "src": "test1.gif",
   "title": "Website",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+  "techs":["javascript","css","html","sass","nunjucks"]
   }, {
   "src": "320.png",
   "title": "Chat client in C",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+  "techs":["C"]
   },{
   "src": "Instagram.png",
   "title": "Instagram bot",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+   "techs":["python"]
   },{
   "src": "test.gif",
   "title": "Website Template",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+   "techs":["javascript","css","html","sass","handlebars"]
   },
 	{
   "src": "nachos.png",
@@ -24,28 +28,34 @@
 {
   "src": "terminal.png",
   "title": "Terminal in C",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+    "techs":["C"]
   },
 	{
   "src": "tictac.jpg",
   "title": "Tic tac toe website",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+  "techs":["javascript","css","html","sass","handlebars"]
   },
   {
   "src": "mips.gif",
   "title": "Mips assembly applications",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+  "techs":["assembly"]
   },{
   "src": "gofish.png",
   "title": "GoFish game in Java",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+  "techs":["JavaFX"]
   },{
   "src": "linear.jpg",
   "title": "Linear Algebra calculator (in progress)",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+  "techs":["Java"]
   },{
   "src": "codeday.jpg",
   "title": "Codeday project in JavaFX",
-  "alt": "alt text for item1"
+  "alt": "alt text for item1",
+  "techs":["JavaFX"]
   }]
 }
