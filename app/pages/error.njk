@@ -1,0 +1,18 @@
+{#This is the page they first encounter#}
+{% set pathjs = './assets/js/' %}
+{% set pathcss = './assets/css/' %}
+{% set pathimgs = './assets/images/' %}
+
+{% set type = 'alert' %}
+{% set message = 'Something went wrong with your submited form.' %}
+{% set extra = 'If error persists please contact me using one of my social media links. Thank you.' %}
+
+{% extends "layout.njk" %}
+
+{% block content %}
+{% include "partials/navigation.njk" %}
+<main>
+  {% include "partials/message.njk" %}
+</main>
+{% include "partials/footer.njk" %}
+{% endblock %}
