@@ -9,6 +9,7 @@
 
 <div class="row small-12 medium-8 large-6 columns align-center">
   <canvas id="myChart" width="400" height="400" background="white" ></canvas>
+  <img src onerror='loadPieChart()' style="display: none;">
 </div>
 <div class="row small-12 medium-8 large-6 columns align-center">
 <input type="search" name="search" placeholder="Search.." class="animated-search-form" id="searchproject" onkeydown="search(this)">
@@ -32,5 +33,6 @@
   {% endfor %}
 </div>
 
+</div>
 </div>
 {% endblock %}

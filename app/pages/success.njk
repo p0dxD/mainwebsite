@@ -1,0 +1,19 @@
+{#This is the page they first encounter#}
+{% set pathjs = './assets/js/' %}
+{% set pathcss = './assets/css/' %}
+{% set pathimgs = './assets/images/' %}
+
+{% set type = 'success' %}
+{% set message = "Form submitted successfully.      " %}
+{% set extra = "That is all for now, I'll be in touch thank you!" %}
+
+
+{% extends "layout.njk" %}
+
+{% block content %}
+{% include "partials/navigation.njk" %}
+<main>
+  {% include "partials/message.njk" %}
+</main>
+{% include "partials/footer.njk" %}
+{% endblock %}
