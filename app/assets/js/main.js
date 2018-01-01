@@ -22,13 +22,13 @@ $(document).ready(function() {
       if(currentPage != 'about'){
       console.log("in about");
         $("main").load("projects/about.php .maincontent",function(){
-          // Parallax stuff
-            // var scene = document.getElementById('scene');
-            //   var parallax = new Parallax(scene);
-            // console.log(parallax);
+        //   // Parallax stuff
+        //     // var scene = document.getElementById('scene');
+        //     //   var parallax = new Parallax(scene);
+        //     // console.log(parallax);
+        $.getScript("./assets/js/terminal.js"); 
         });
 
-        $('body').css('overflow','scroll');
         currentPage = 'about';
             }//end if
         // test();
@@ -38,27 +38,8 @@ $(document).ready(function() {
       console.log("in projects");
       if(currentPage != 'projects'){
         $("main").load("projects/projects.php .maincontent");
-        // $('body').css('overflow','scroll');
+        $('body').css('overflow','scroll');
 
-// var waitForEl = function(selector, callback) {
-//   if (jQuery(selector).length) {
-//     callback();
-//   } else {
-//     setTimeout(function() {
-//       waitForEl(selector, callback);
-//     }, 100);
-//   }
-// };
-// console.log("mmm okay");
-// waitForEl($('#myChart'), function() {
-//   // work the magic
-//   console.log("loading chart");
-//   loadPieChart();
-// });
-
-        // $('#myChart').ready(function(){
-        //   loadPieChart();
-        // });
         currentPage = 'projects';
       }//end if
     });
@@ -67,6 +48,7 @@ $(document).ready(function() {
       console.log("in contact");
       if(currentPage != 'contact'){
         $("main").load("projects/contact.php .maincontent");
+        $('body').css('overflow','scroll');
         console.log("here in about");
         recaptchaOnload();
         // validate();
@@ -205,8 +187,8 @@ function updateProjects(searchValue){
           <img src=../assets/images/gifs/`+String(currentProject.src)+`>
         </div>
         <div class="card-section">
-          <h4>`+String(currentProject.title)+`</h4>
-          <p>It has an easy to override visual style, and is appropriately subdued.</p>
+          <h4 class="card-header">`+String(currentProject.title)+`</h4>
+          <p class="card-details">It has an easy to override visual style, and is appropriately subdued.</p>
         </div>
       </div>
     </div>`
@@ -275,3 +257,8 @@ function hello(){
 $(function(){
   $('canvas[onload]').trigger('onload');
 });
+
+
+//terminal
+
+

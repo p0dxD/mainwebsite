@@ -3,3 +3,29 @@
  max-height: 400px;
  max-width: 400px;
 }
+
+.card{
+min-height: 420px;
+max-height: 420px;
+}
+
+.card-details{
+	overflow: scroll;
+	max-height: 102px;
+}
+
+.card-header{
+	color: forestgreen;
+	min-height: 60px;
+	overflow: scroll;
+	max-height: 75px;
+}
+
+#searchproject{
+	margin: 25px;
+}
+
+.card-section{
+	min-height: 165px;
+	max-height: 195px;
+}

@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
  include "./recaptchalib.php";
  // your secret key
-$secret = "MY SECRET KEY";
+$secret = "My key";
  
 // empty response
 $response = null;

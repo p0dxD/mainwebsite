@@ -8,7 +8,15 @@
     </nav>
   </header>
   <div id="data">
-
+<section id="terminal">
+    <section>
+      <div class="content" onclick="document.getElementById('code').focus();">
+        <ul id="message" class="scrollbar"></ul>
+        <span class="encart">> </span>
+        <input type="text" onKeyPress="if(event.key === 'Enter') executeCommand();"  id="code" autocomplete = "off">
+      </div>
+</section>
+</section>
   </div>
 
 </section>
@@ -17,3 +25,16 @@
 <div class="prompt-shortcut i-prompt hidden js-open"></div>
 
 </div>
+
+
+   <div id="test" class="test">
+      <div data-depth="1.00"><img src="{{pathimgs}}paradox/layer1.png"></div>
+      <div data-depth="0.80"><img src="{{pathimgs}}paradox/layer2.png"></div>
+      <div data-depth="0.60"><img src="{{pathimgs}}paradox/layer3.png"></div>
+      <div data-depth="0.40"><img src="{{pathimgs}}paradox/layer4.png"></div>
+      <div data-depth="0.20"><img src="{{pathimgs}}paradox/layer5.png"></div>
+      <div data-depth="0.00"><img src="{{pathimgs}}paradox/layer6.png"></div>
+    </div>
+
+<script type="text/javascript" src="{{pathjs}}terminal.js"></script>
+<script type="text/javascript" src="{{pathjs}}effects.js"></script>
